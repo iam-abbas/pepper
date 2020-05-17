@@ -1,0 +1,23 @@
+{
+  "name": "pepper-portfolio",
+  "version": "1.0.0",
+  "description": "A minimalistic portfolio for engineers",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "gatsby": "^2.21.33",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.118",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.1",
+    "@mdx-js/react": "^1.6.1",
+    "gatsby-plugin-mdx": "^1.2.7",
+    "gatsby-plugin-page-creator": "^2.3.2"
+  }
+}
