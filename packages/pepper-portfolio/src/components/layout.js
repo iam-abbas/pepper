@@ -1,16 +1,9 @@
-import React from "react"
-
+import React from "react";
 
 export default function Layout({ children }) {
-    return (
-      <div
-        style={{
-          // Layout styling
-          margin: `10%`,
-          backgroundColor: `#fafafa`,
-        }}
-      >
-        {children}
-      </div>
-    )
-  }
+  return(
+    <div>
+      { children }
+    </div>
+  );
+}

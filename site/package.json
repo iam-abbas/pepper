@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "gatsby build",
     "develop": "gatsby develop",
-    "build": "gatsby build"    
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "gatsby": "^2.21.33",
+    "pepper-portfolio": "*",
+    "gatsby": "^2.20.36",
+    "gatsby-plugin-google-analytics": "^2.1.8",
+    "gatsby-plugin-manifest": "^2.2.6",
+    "gatsby-plugin-netlify": "^2.1.6",
+    "gatsby-plugin-offline": "^2.2.7",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "pepper-portfolio": "*"
-  }
+    "react-dom": "^16.13.1"
+  } 
 }

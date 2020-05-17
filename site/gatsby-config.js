@@ -1,3 +1,3 @@
 module.exports = {
-    plugins: [`pepper-portfolio`],
-  }
+  plugins: [`pepper-portfolio`],
+}
