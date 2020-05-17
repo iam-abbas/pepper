@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('E:/Github/pepper/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"defaultLayouts":{"default":"E:\\Github\\pepper\\packages\\pepper-portfolio\\src\\components\\layout.js"}},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
