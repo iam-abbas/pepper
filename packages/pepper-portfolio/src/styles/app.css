@@ -58,26 +58,31 @@ body {
     transform: rotate(340deg);
 }
 
-.aws-btn {
-    --slider-height-percentage: 60%;
-    --slider-transition-duration: 770ms;
-    --organic-arrow-thickness: 4px;
-    --organic-arrow-border-radius: 0px;
-    --organic-arrow-height: 40px;
-    --organic-arrow-color: #007f90;
-    --control-button-width: 10%;
-    --control-button-height: 25%;
-    --control-button-background: transparent;
-    --control-bullet-color: #0095a9;
-    --control-bullet-active-color: #007f90;
-    --loader-bar-color: #851515;
-    --loader-bar-height: 6px;
+.about {
+    background-color: #c72020;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15% 20%;
+    min-height: 100vh;
+    display: block;
+    color: #fff;
 }
 
-.awssld__container {
-    padding-bottom: 100vh;
+.about .social-link {
+    font-size: 36px;
+    padding: 25px;
+    padding-left: 0;
+    gap: 10px;
+    color: rgb(255, 255, 255);
 }
 
-.awssld__bullets {
-    display: none;
+.wrapper {
+    height: 100vh;
+    position: absolute;
+    overflow-x: auto;
+}
+
+.awssld__controls__arrow-left:before, .awssld__controls__arrow-left:after, .awssld__controls__arrow-right:before, .awssld__controls__arrow-right:after {
+    background-color: #fff;
 }
