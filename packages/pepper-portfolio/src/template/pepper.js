@@ -4,6 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import Hero from "../components/hero";
 import About from "../components/About";
+import ProjectsComp from "../components/Projects";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 import "../styles/app.css";
 
@@ -14,6 +15,9 @@ const pepper = () => (
     </div>
     <div class="main">
       <About />
+    </div>
+    <div class="main">
+      <ProjectsComp />
     </div>
   </AwesomeSlider>
 );
