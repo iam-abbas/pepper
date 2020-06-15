@@ -1,42 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+html, body {
+    height: 100%;
+}
 
 body {
-    background-color: #fff;
+    background-color: #141936;
     font-family: 'Poppins', sans-serif;
 }
 
+.main {
+    height: 100%;
+    width: 100%;
+}
+
 .intro {
+    background-color: #2b0059;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.intro .hello {
+    color: #e0faff;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20%;
+    font-weight: 700;
+    font-size: 8em;
+    line-height: 0;
+    text-shadow: -5px -5px 2px #28ccea;
     display: block;
 }
 
 .intro h1 {
-    font-family: 'Roboto Mono', monospace;
-    margin-top: 10%;
-    font-weight: 700;
-    font-size: 3.5em;
-    display: block;
-}
-
-.intro h2 {
-    font-size: 24px;
+    color: #fff;
+    font-size: 28px;
     font-weight: 400;
-}
-
-.intro img {
-    margin: 40px;
-    height: 180px;
-    width: 180px;
-    border: 7px solid #d4d4d4;
-    border-radius: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 5%;
+    line-height: 10px;
+    display: block;
+    margin-bottom: 70px;
 }
 
 .social-link {
     font-size: 46px;
     padding: 15px;
-    color:#7510F7;
+    color: rgb(229, 208, 255);
+}
+
+.social-link i:hover {
+    transition: all linear 250ms;
+    transform: rotate(340deg);
+}
+
+.aws-btn {
+    --slider-height-percentage: 60%;
+    --slider-transition-duration: 770ms;
+    --organic-arrow-thickness: 4px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 40px;
+    --organic-arrow-color: #007f90;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: #0095a9;
+    --control-bullet-active-color: #007f90;
+    --loader-bar-color: #851515;
+    --loader-bar-height: 6px;
+}
+
+.awssld__container {
+    padding-bottom: 100vh;
+}
+
+.awssld__bullets {
+    display: none;
 }
