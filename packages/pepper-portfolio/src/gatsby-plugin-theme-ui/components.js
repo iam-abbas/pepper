@@ -4,9 +4,9 @@ import Project from "../components/projectCards";
 
 const components = {
   Socials: ({ link, name }) => <Socials link={link} name={name} />,
-  Project: ({ link, title, children }) => {
+  Project: ({ title, link, img, bg, children }) => {
     return (
-      <Project link={link} title={title}>
+      <Project title={title} link={link} img={img} bg={bg}>
         {children}
       </Project>
     );
