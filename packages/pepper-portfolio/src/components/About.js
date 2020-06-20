@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/app.css";
-import AboutMDX from "../pages/About.mdx";
+import AboutMDX from "../pages/about.mdx";
 
 export default function About() {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../components/layout";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import Hero from "../components/hero";
