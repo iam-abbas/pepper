@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "pepper-portfolio": "*",
-    "gatsby": "^2.20.36",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-google-analytics": "^2.1.8",
     "gatsby-plugin-manifest": "^2.2.6",
     "gatsby-plugin-netlify": "^2.1.6",
